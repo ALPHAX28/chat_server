@@ -74,7 +74,7 @@ exports.sendOTP = async (req, res, next) => {
     // TODO Send Mail
 
     mailService.sendEmail({
-        from: "alpharadiance12@gmail.com",
+        from: "radiance546@gmail.com",
         to: user.email,
         subject: "OTP For Radiance",
         html: otp(user.firstName,new_otp),

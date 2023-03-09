@@ -16,7 +16,7 @@ const sendSGMail = async({
 
 }) => {
     try {
-        const from = sender || "alpharadiance12@gmail.com";
+        const from = sender || "radiance546@gmail.com";
 
         const msg = {
             to: to,

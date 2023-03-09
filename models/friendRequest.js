@@ -3,12 +3,12 @@ const mongoose = require("mongoose");
 const requestSchema = new mongoose.Schema({
     sender: {
         type: mongoose.Schema.ObjectId,
-        ref: "user",
+        ref: "User",
 
     },
     recipient: {
         type: mongoose.Schema.ObjectId,
-        ref: "user",
+        ref: "User",
         
     },
     createdAt:{
